@@ -870,7 +870,7 @@ h6 {
   }
 
   .pre-1__body {
-    padding-top: 3.3125rem;
+    padding-top: 1.25rem;
   }
 
   .pre-1__logo:not(:last-child) {
@@ -1187,15 +1187,15 @@ h6 {
     }
 }
 
-@supports (padding-top: clamp( 3.3125rem , 2.8594798658rem  +  2.2651006711vw , 5rem )) {
+@supports (padding-top: clamp( 1.25rem , 0.2432885906rem  +  5.033557047vw , 5rem )) {
     .pre-1__body {
-      padding-top: clamp( 3.3125rem , 2.8594798658rem  +  2.2651006711vw , 5rem );
+      padding-top: clamp( 1.25rem , 0.2432885906rem  +  5.033557047vw , 5rem );
     }
 }
 
-@supports not (padding-top: clamp( 3.3125rem , 2.8594798658rem  +  2.2651006711vw , 5rem )) {
+@supports not (padding-top: clamp( 1.25rem , 0.2432885906rem  +  5.033557047vw , 5rem )) {
     .pre-1__body {
-      padding-top: calc(3.3125rem + 1.6875 * (100vw - 20rem) / 74.5);
+      padding-top: calc(1.25rem + 3.75 * (100vw - 20rem) / 74.5);
     }
 }
 
